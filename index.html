@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/xi.jpeg" type="image/x-icon">
+    <title>Marry</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body style="background-image:url('img/bg.jpg')">
+<div>
+	<h3>WE GET MARRIED</h3>
+    <div class="wrapper" id="wrap">
+        <img src="img/one.jpg" alt="">
+        <img src="img/two.jpg" alt="">
+        <img src="img/three.jpg" alt="">
+        <img src="img/four.jpg" alt="">
+        <img src="img/four02.jpg" alt="">
+        <img src="img/five.jpg" alt="">
+        <img src="img/five02.jpg" alt="">
+        <img src="img/six.jpg" alt="">
+        <img src="img/seven.jpg" alt="">
+    </div>
+    <div style="text-align: center;width:99%;margin-top:80px">
+    	<video controls>
+          <source src="img/movie.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+        </video>
+    </div>
+    </div>
+    <script src="lib/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $("#wrap").slider({
+            curDisplay: 0,
+            autoPlay: true,
+            interval: 2000
+        })
+    </script>
+</body>
+</html>
